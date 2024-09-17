@@ -33,8 +33,8 @@
             position: absolute;
             top: 10px;
             right: 10px;
-            height: 50px; /* Adjust the height as needed */
-            border-radius: 50%; /* Optional: makes the image round */
+            height: 500px; /* Adjust the height as needed */
+            /*border-radius: 50%; /* Optional: makes the image round */
         }
         nav ul {
             padding: 0;
