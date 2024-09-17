@@ -29,6 +29,13 @@
             text-transform: uppercase;
             margin: 0;
         }
+        header img {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            height: 50px; /* Adjust the height as needed */
+            border-radius: 50%; /* Optional: makes the image round */
+        }
         nav ul {
             padding: 0;
             list-style: none;
@@ -80,7 +87,8 @@
 <body>
     <header>
         <div class="container">
-            <h1>Your Name</h1>
+            <h1>Drew Grant</h1>
+            <img src="headshot.jpg" alt="headshot">
             <nav>
                 <ul>
                     <li><a href="#skills">Technical Skills</a></li>
@@ -90,20 +98,18 @@
             </nav>
         </div>
     </header>
-
     <div class="container">
         <div class="main-content">
             <div id="skills" class="content-section">
                 <h2>Technical Skills</h2>
                 <ul>
-                    <li>Programming Languages: Python, Java, C++</li>
+                    <li>Programming Languages: Python, C++</li>
                     <li>Web Technologies: HTML, CSS, JavaScript</li>
                     <li>Database Management: SQL, MongoDB</li>
                     <li>Tools: Git, Docker, Jenkins</li>
                     <li>Operating Systems: Linux, Windows</li>
                 </ul>
             </div>
-
             <div id="publications" class="content-section">
                 <h2>Publications</h2>
                 <ul class="publication-list">
@@ -113,7 +119,6 @@
                 </ul>
             </div>
         </div>
-
         <div id="research" class="content-section">
             <h2>Research Interests</h2>
             <p>
@@ -128,9 +133,8 @@
             </ul>
         </div>
     </div>
-
     <footer>
-        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        <p>&copy; 2024 Drew Grant. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
