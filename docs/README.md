@@ -31,9 +31,9 @@
         }
         header img {
             position: absolute;
-            top: 10px;
-            right: 10px;
-            height: 500px; /* Adjust the height as needed */
+            top: 100px;
+            right: 100px;
+            height: 100px; /* Adjust the height as needed */
             /*border-radius: 50%; /* Optional: makes the image round */
         }
         nav ul {
