@@ -56,7 +56,7 @@
             padding: 20px 0;
         }
         .content-section {
-            width: 48%;
+            width: 33%;
             background: #fff;
             padding: 20px;
             border-radius: 5px;
@@ -71,7 +71,7 @@
             padding: 0;
         }
         .publication-list li {
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         footer {
             background: #333;
