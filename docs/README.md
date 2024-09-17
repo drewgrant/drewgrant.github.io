@@ -88,7 +88,7 @@
     <header>
         <div class="container">
             <h1>Drew Grant</h1>
-            <img src="headshot2.jpg">
+            <img src="/docs/assets/img/headshot2.jpg">
             <nav>
                 <ul>
                     <li><a href="#skills">Technical Skills</a></li>
