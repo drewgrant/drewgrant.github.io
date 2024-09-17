@@ -87,7 +87,7 @@
 <body>
     <header>
         <div class="container">
-            <h1>Drew Grant</h1>
+            <h1>Drew Grant, PhD</h1>
             <img src="/docs/assets/img/headshot2.jpg">
             <nav>
                 <ul>
@@ -113,9 +113,10 @@
             <div id="publications" class="content-section">
                 <h2>Publications</h2>
                 <ul class="publication-list">
-                    <li><strong>Author 1, Author 2</strong>. "Title of the Paper". <em>Journal Name</em>, Year.</li>
-                    <li><strong>Author 1, Author 2</strong>. "Title of the Paper". <em>Conference Name</em>, Year.</li>
-                    <li><strong>Author 1, Author 2</strong>. "Title of the Paper". <em>Journal Name</em>, Year.</li>
+                    <li><strong>D Grant, J West</strong>. "Acoustic Word Modeling for COVID-19 Detection ". <em>IEEE SIPS</em>, 2024.</li>
+                    <li><strong>D Grant, H Hahn, A Eisape, V Rennoll, J West</strong>. "Multi-Modal Approaches for Improving the Robustness of Audio-Based Covid-19 Detection Systems". <em>IEEE ICASSP</em>, 2024.</li>
+                    <li><strong>D Grant, I McLane, V Rennoll, J West </strong>. "Considerations and Challenges for Real-World Deployment of an Acoustic-Based COVID-19 Screening System". <em>Sensors</em>, 2022.</li>
+                    <li><strong>D Grant, I McLane, J West </strong>. "Rapid and scalable COVID-19 screening using speech, breath, and cough recordings". <em>IEEE BHI</em>, 2021.</li>
                 </ul>
             </div>
         </div>
@@ -126,7 +127,7 @@
             </p>
             <ul>
                 <li>Artificial Intelligence and Machine Learning</li>
-                <li>Data Analytics and Big Data</li>
+                <li>Audio Signal Processing</li>
                 <li>Software Development and Engineering</li>
                 <li>Cybersecurity</li>
                 <li>Human-Computer Interaction</li>
