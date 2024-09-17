@@ -56,7 +56,7 @@
             padding: 20px 0;
         }
         .content-section {
-            width: 33%;
+            width: 67%;
             background: #fff;
             padding: 20px;
             border-radius: 5px;
@@ -91,7 +91,7 @@
             <img src="/docs/assets/img/headshot2.jpg">
             <nav>
                 <ul>
-                    <li><a href="#skills">Technical Skills</a></li>
+                    <li><a href="#skills">About Me</a></li>
                     <li><a href="#publications">Publications</a></li>
                     <li><a href="#research">Research Interests</a></li>
                 </ul>
@@ -103,6 +103,7 @@
             <div id="skills" class="content-section">
                 <h2>Technical Skills</h2>
                 <ul>
+                    I obtained my PhD at Johns Hopkins University studying Electrical and Computer Engineering under the advisement of Dr. James West. I am blah blahhhhh. I have the following technical skills:
                     <li>Programming Languages: Python, C++</li>
                     <li>Web Technologies: HTML, CSS, JavaScript</li>
                     <li>Database Management: SQL, MongoDB</li>
