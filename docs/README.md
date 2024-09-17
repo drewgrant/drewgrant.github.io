@@ -55,7 +55,7 @@
             padding: 20px 0;
         }
         .content-section {
-            width: 67%;
+            width: 55%;
             background: #fff;
             padding: 20px;
             border-radius: 5px;
