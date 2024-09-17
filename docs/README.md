@@ -100,7 +100,7 @@
     <div class="container">
         <div class="main-content">
             <div id="skills" class="content-section">
-                <h2>Technical Skills</h2>
+                <h2>About Me</h2>
                 <ul>
                     I obtained my PhD at Johns Hopkins University studying Electrical and Computer Engineering under the advisement of Dr. James West. I am blah blahhhhh. I have the following technical skills:
                     <li>Programming Languages: Python, C++</li>
