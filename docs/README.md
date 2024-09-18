@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drew Grant - Professional Profile</title>
+    <title>My Professional Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,131 +12,64 @@
             color: #333;
             background-color: #f4f4f4;
         }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
         .container {
             width: 80%;
             margin: auto;
             overflow: hidden;
         }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #bbb 1px solid;
-        }
-        header h1 {
-            text-align: center;
-            text-transform: uppercase;
-            margin: 0;
-        }
-        header img {
-            position: absolute;
-            top: 100px;
-            right: 100px;
-            height: 100px; /* Adjust the height as needed */
-            /*border-radius: 50%; /* Optional: makes the image round */
-        }
-        nav ul {
-            padding: 0;
-            list-style: none;
-            text-align: center;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 10px;
-        }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .main-content {
-            display: flex;
-            justify-content: space-between;
-            padding: 20px 0;
-        }
-        .content-section {
-            width: 55%;
-            background: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .content-section h2 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 10px;
-        }
-        .publication-list {
-            list-style: none;
-            padding: 0;
-        }
-        .publication-list li {
-            margin-bottom: 20px;
+        section {
+            padding: 2rem 0;
         }
         footer {
-            background: #333;
+            background-color: #333;
             color: #fff;
             text-align: center;
-            padding: 10px 0;
-            position: absolute;
-            bottom: 0;
+            padding: 1rem 0;
+            position: fixed;
             width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Drew Grant, PhD</h1>
-            <img src="/docs/assets/img/headshot2.jpg">
+            <h1>My Professional Website</h1>
             <nav>
                 <ul>
-                    <li><a href="#skills">About Me</a></li>
-                    <li><a href="#publications">Publications</a></li>
-                    <li><a href="#research">Research Interests</a></li>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <div class="container">
-        <div class="main-content">
-            <div id="skills" class="content-section">
-                <h2>About Me</h2>
-                <ul>
-                    I obtained my PhD at Johns Hopkins University studying Electrical and Computer Engineering under the advisement of Dr. James West. I am blah blahhhhh. I have the following technical skills:
-                    <li>Programming Languages: Python, C++</li>
-                    <li>Web Technologies: HTML, CSS, JavaScript</li>
-                    <li>Database Management: SQL, MongoDB</li>
-                    <li>Tools: Git, Docker, Jenkins</li>
-                    <li>Operating Systems: Linux, Windows</li>
-                </ul>
-            </div>
-            <div id="publications" class="content-section">
-                <h2>Publications</h2>
-                <ul class="publication-list">
-                    <li><strong>D Grant, J West</strong>. "Acoustic Word Modeling for COVID-19 Detection ". <em>IEEE SIPS</em>, 2024.</li>
-                    <li><strong>D Grant, H Hahn, A Eisape, V Rennoll, J West</strong>. "Multi-Modal Approaches for Improving the Robustness of Audio-Based Covid-19 Detection Systems". <em>IEEE ICASSP</em>, 2024.</li>
-                    <li><strong>D Grant, I McLane, V Rennoll, J West </strong>. "Considerations and Challenges for Real-World Deployment of an Acoustic-Based COVID-19 Screening System". <em>Sensors</em>, 2022.</li>
-                    <li><strong>D Grant, I McLane, J West </strong>. "Rapid and scalable COVID-19 screening using speech, breath, and cough recordings". <em>IEEE BHI</em>, 2021.</li>
-                </ul>
-            </div>
-        </div>
-        <div id="research" class="content-section">
-            <h2>Research Interests</h2>
-            <p>
-                I am particularly interested in the following research areas:
-            </p>
-            <ul>
-                <li>Artificial Intelligence and Machine Learning</li>
-                <li>Audio Signal Processing</li>
-                <li>Software Development and Engineering</li>
-                <li>Cybersecurity</li>
-                <li>Human-Computer Interaction</li>
-            </ul>
-        </div>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>Hello! I’m [Your Name], a [Your Profession]. I specialize in [Your Specialty] and have [Number] years of experience in [Industry]. My passion lies in [Your Passion], and I’m constantly looking to improve my skills and learn new technologies.</p>
+        </section>
     </div>
     <footer>
-        <p>&copy; 2024 Drew Grant. All Rights Reserved.</p>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
     </footer>
 </body>
 </html>
